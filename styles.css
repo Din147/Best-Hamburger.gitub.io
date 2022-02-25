@@ -1,0 +1,93 @@
+html,body{
+    height:100%;
+    width:100%;
+    margin:0 auto;
+    background-color:rgb(162, 0, 255);
+    /* display: grid; */
+}
+
+.burger {
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+
+
+.btn-layer{
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: row;
+}
+
+.ban{
+    background-color: sandybrown;
+    width: 120px;
+    height: 25px;
+    border-radius: 10px;
+}
+
+.tomato{
+    background-color: tomato;
+    width: 100px;
+    height: 10px;
+    border-radius: 10px;
+}
+
+.lettuce{
+    background-color: green;
+    width: 100px;
+    height: 10px;
+    border-radius: 10px;
+}
+.cheese{
+    background-color: yellow;
+    width: 100px;
+    height: 8px;
+    border-radius: 10px;
+}
+ 
+.beyondBurger{
+    background-color: brown;
+    width: 100px;
+    height: 18px;
+    border-radius: 10px;
+}
+
+
+.Price{
+    border-radius: 0px;
+    margin-left: 40px;
+    margin-right: 20px;
+    font-size: 30px;
+    font-style: italic;
+}
+
+.only{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color:red;
+    font-weight: bold;
+    font-size:30px;
+    
+}
+
+.footer{
+    display: flex;
+    align-items: center;
+    flex-direction:column;
+    grid-column: span 12;
+    
+}
+
+.main{
+ margin-bottom:5%;
+ margin-top:1%;
+ display: flex;
+ align-items: center;
+ flex-direction:column;
+
+}
